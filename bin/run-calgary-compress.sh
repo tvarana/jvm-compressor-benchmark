@@ -15,6 +15,7 @@ java -server -cp lib/japex/\* \
  -Djapex.reportsDirectory=reports/calgary-compress \
  -Djapex.plotGroupSize=6 \
  -Djapex.inputDir="testdata/calgary" \
+ -Djapex.singleClassLoader=true \
  com.sun.japex.Japex \
  cfg/tests-calgary-compress.xml
 
